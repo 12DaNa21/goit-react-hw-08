@@ -1,0 +1,24 @@
+.search {
+    max-width: 240px;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    margin: 20px auto;
+    
+   
+}
+.text {
+    font-weight: 600;
+    color: rgb(6, 51, 47);
+    font-size: 20px;
+    margin-bottom: 12px;
+}
+.input {
+    border-radius: 6px;
+    height: 30px;
+    width: 100%;
+}
+
+.input:active {
+    background-color: transparent;
+}

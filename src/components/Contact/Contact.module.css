@@ -1,0 +1,41 @@
+.contacts {
+    max-width: 500px;
+    margin: 0 auto;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-bottom: 10px;
+    padding: 10px;
+    border: 3px solid rgb(9, 68, 30);
+    border-radius: 10px;
+}
+
+.text {
+    font-style: italic;
+    display: flex;
+    font-size: 24px;
+    gap: 5px;
+    margin-bottom: 5px;
+}
+
+.phone {
+    display: flex;
+    font-size: 24px;
+    gap: 5px;
+}
+
+.sbmbtn {
+    display: flex;
+    align-items: center;
+    justify-content:space-around;
+    padding: 10px;
+    border-radius: 6px;
+    font-size: 16px;
+    width: 100px;
+    height: 32px;
+    background-color: rgb(39, 192, 138);
+}
+.delete {
+    
+    background-color: rgb(39, 192, 138);
+}

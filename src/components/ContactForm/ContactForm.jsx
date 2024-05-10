@@ -8,10 +8,18 @@ import { IoIosPersonAdd } from "react-icons/io";
 import { addContact } from "../../redux/contacts/contactsSlice";
 
 
+const regex = {
+  phoneNumber: /^[0-9]{3}[-]{1}[0-9]{2}[-]{1}[0-9]{2}$/,
+}
+
 const FeedbackSchema = Yup.object().shape({
-    name: Yup.string().min(3, "Too Short!").max(50, "Too Long!").required("Required"),
-    number: Yup.string().min(3, "Too Short!").max(50, "Too Long!").required("Required"),
-  });
+  name: Yup.string().min(3, "Too Short!").max(50, "Too Long!").required("Required"),
+  number: Yup.string()
+    .min(3, "Too short!")
+    .max(50, "Too long!")
+    .matches(regex.phoneNumber, "Number format: 000-00-00")
+    .required("Required"), 
+});
 
   const initialValues = {
     name: "",

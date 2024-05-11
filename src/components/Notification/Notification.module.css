@@ -1,0 +1,38 @@
+.notification {
+    position: absolute;
+    top: 35%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    padding: 10px 20px;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+  }
+  
+ 
+  
+  .error {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 5px;
+    background-color: #e40a1f;
+    color: #bd0b0b; 
+  }
+  .success {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 5px;
+    background-color: #12bb53;
+    color: #0dce26; 
+  }
+  .message {
+    color: black;
+    background-color: transparent;
+  }
+
+  .icon {
+    background-color: transparent;
+    color: black;
+    margin-right: 5px;
+  }

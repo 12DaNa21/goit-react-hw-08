@@ -3,7 +3,8 @@ import { useSelector, useDispatch } from 'react-redux';
 import { Formik, Form, Field, ErrorMessage } from 'formik';
 import * as Yup from 'yup';
 import { nanoid } from 'nanoid';
-import { addContact } from '../../redux/contacts/contactsSlice';
+import { addContact } from '../../redux/contactsOps';
+import { IoPersonAddSharp } from "react-icons/io5";
 import Notification from '../Notification/Notification';
 import css from './ContactForm.module.css';
 
@@ -65,7 +66,7 @@ export default function ContactForm() {
             <ErrorMessage className={css.error} name="number" component="span" />
           </div>
           <button className={css.addbtn} type="submit">
-            Add contact
+          <IoPersonAddSharp className={css.icon}/>Add contact
           </button>
         </Form>
         {notification && <Notification message={notification} type={notificationType} />}

@@ -15,6 +15,9 @@ ul, li {
 }
 
 .heading {
+    display: flex;
+    align-items: flex-start;
+    justify-content: center;
     font-style: italic;
     font-weight: bold;
     font-size: 72px;

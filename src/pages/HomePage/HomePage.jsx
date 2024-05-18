@@ -1,16 +1,16 @@
 import PageTitle from "../../components/PageTitle/PageTitle";
-import styles from "./HomePage.module.css"
+import css from "./HomePage.module.css"
 
 export default function HomePage() {
   return (
-    <div className={styles.container}>
+    <div className={css.container}>
       <PageTitle>
       Contact manager welcome page{" "}
         <span role="img" aria-label="Greeting icon">
           💁‍♀️
         </span>
       </PageTitle>
-      <p>A convenient application for managing your contacts</p>
+      <p className={css.text}>A convenient application for managing your contacts</p>
       
     </div>
   );

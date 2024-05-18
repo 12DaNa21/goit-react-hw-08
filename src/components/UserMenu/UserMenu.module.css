@@ -1,0 +1,30 @@
+.wrapper {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+}
+
+.username {
+  color: rgb(21, 59, 47);
+  font-weight: 700;
+}
+.logbtn {
+  
+    border-radius: 6px;
+    font-size: 16px;
+    margin: 0 auto;
+    display: flex;
+    padding: 3px;
+    align-items: center;
+    justify-content: space-between;
+    padding: 10px;
+    background-color: rgb(39, 192, 138);
+}
+.icon {
+  margin-right: 4px;
+}
+@media screen and (max-width: 376px) {
+  .username{
+    display: none;
+  }
+}

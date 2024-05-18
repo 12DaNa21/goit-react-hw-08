@@ -1,8 +1,17 @@
-/* .list{
-    display: flex;
-    gap: 20px;
+ .list{
+    width: 100%;
+    
+    
     list-style-type: none;
-    margin-left: 15px;
+    margin: 0 auto;
     padding: 0;
     flex-wrap: wrap;
-} */
+} 
+.item{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    border-radius: 5px;
+    
+    
+}

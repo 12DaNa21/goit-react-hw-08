@@ -1,0 +1,12 @@
+.heading {
+  display: flex;
+  align-items: flex-start;
+  justify-content: center;
+  font-style: italic;
+  font-weight: bold;
+  font-size: 72px;
+  margin-top: 40px;
+  text-align: center;
+  margin-bottom: 40px;
+  color: rgba(4, 39, 37, 0.966);
+}

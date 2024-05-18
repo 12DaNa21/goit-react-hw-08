@@ -1,0 +1,23 @@
+.nav {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.link {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-decoration: none;
+  padding: 12px;
+  font-weight: 700;
+  color: rgb(9, 68, 30);
+}
+
+.link.active {
+  color: #e84a5f;
+}
+
+.icon {
+  margin-right: 6px;
+}

@@ -3,7 +3,7 @@ import { useSelector, useDispatch } from 'react-redux';
 import { Formik, Form, Field, ErrorMessage } from 'formik';
 import * as Yup from 'yup';
 import { nanoid } from 'nanoid';
-import { addContact } from '../../redux/contactsOps';
+import { addContact } from '../../redux/contacts/operations';
 import { IoPersonAddSharp } from "react-icons/io5";
 import Notification from '../Notification/Notification';
 import css from './ContactForm.module.css';
@@ -13,7 +13,7 @@ const FeedbackSchema = Yup.object().shape({
   number: Yup.string()
     .min(3, 'Too short!')
     .max(50, 'Too long!')
-    .matches(/^\d{3}-\d{2}-\d{2}$/, 'Number format: 000-00-00')
+    
     .required('Required'),
 });
 

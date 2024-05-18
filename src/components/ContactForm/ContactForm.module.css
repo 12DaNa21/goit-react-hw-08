@@ -34,6 +34,7 @@
 }
 
 .label {
+    background-color: transparent;
     align-self: center;
     margin-top: 12px;
     width: 100%;

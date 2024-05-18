@@ -1,0 +1,21 @@
+.container {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 10px;
+}
+.link {
+  font-weight: 600;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  text-decoration: none;
+  color: rgb(21, 59, 47);
+}
+.link:active {
+  color: black;
+}
+.icon {
+  margin-right: 6px;
+}
+

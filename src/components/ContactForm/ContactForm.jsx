@@ -17,7 +17,6 @@ const FeedbackSchema = Yup.object().shape({
     .required('Required'),
 });
 
-
 export default function ContactForm() {
   const dispatch = useDispatch();
   const contacts = useSelector((state) => state.contacts.items);
